@@ -35,3 +35,10 @@ console.log(a == b); // operador de comparação;
 console.log(a === b);
 console.log(a !== b);
 
+// != compara o valor e não o tipo
+
+// operadores lógicos && e ou || 
+
+console.log(a == b && typeof b == 'string');
+console.log(a == b && typeof a == 'string');
+
