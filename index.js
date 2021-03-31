@@ -1,46 +1,59 @@
-var helloWorld = "Hello world!!!";
+// var helloWorld = "Hello world!!!";
 
 
-console.log(helloWorld);
-// console.log("Hello World!!!");
+// console.log(helloWorld);
+// // console.log("Hello World!!!");
 
 
-/* variáveis de escopo
-let é uma variável que muda, leva em consideração onde você declarou a variável, tem escopo de bloco
-const não pode mudar, são constantes. ex.: conexão do banco de dados ou algo desse tipo.
-*/
+// /* variáveis de escopo
+// let é uma variável que muda, leva em consideração onde você declarou a variável, tem escopo de bloco
+// const não pode mudar, são constantes. ex.: conexão do banco de dados ou algo desse tipo.
+// */
 
-// float ou ints são numbers em JavaScript
+// // float ou ints são numbers em JavaScript
 
-// typeOf tipo de dado da variavél
+// // typeOf tipo de dado da variavél
 
-console.log(typeof(helloWorld));
+// console.log(typeof(helloWorld));
 
-// instanceOf de qual instancia veio
+// // instanceOf de qual instancia veio
 
-// boolean function linguagem fracamente tipada
+// // boolean function linguagem fracamente tipada
 
-// functions de conversão parseInt, parseFloat
+// // functions de conversão parseInt, parseFloat
 
-// operadores
+// // operadores
 
-let a = 20;
-const b = "20";
+// let a = 20;
+// const b = "20";
 
-console.log(a == b); // operador de comparação;
+// console.log(a == b); // operador de comparação;
 
-// para comparar o tipo de variável vc usa ===
-// = atribuição == comparação de valor === comparação de tipo !== diferente
+// // para comparar o tipo de variável vc usa ===
+// // = atribuição == comparação de valor === comparação de tipo !== diferente
 
-console.log(a === b);
-console.log(a !== b);
+// console.log(a === b);
+// console.log(a !== b);
 
-// != compara o valor e não o tipo
+// // != compara o valor e não o tipo
 
-// operadores lógicos && e ou ||
+// // operadores lógicos && e ou ||
 
-console.log(a == b && typeof b == 'string');
-console.log(a == b && typeof a == 'string');
+// console.log(a == b && typeof b == 'string');
+// console.log(a == b && typeof a == 'string');
 
-// operador incremental a++ operador decremental a--
+// // operador incremental a++ operador decremental a--
 
+let cor = 'red';
+
+if (cor === 'green') {
+
+  console.log('go');
+
+} else {
+
+  console.log('stop');
+
+}
+
+// if(condition) {instructions}
