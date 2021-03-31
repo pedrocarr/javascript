@@ -30,6 +30,8 @@ const b = "20";
 console.log(a == b); // operador de comparação;
 
 // para comparar o tipo de variável vc usa ===
+// = atribuição == comparação de valor === comparação de tipo !== diferente
 
 console.log(a === b);
+console.log(a !== b);
 
