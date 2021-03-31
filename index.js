@@ -37,8 +37,10 @@ console.log(a !== b);
 
 // != compara o valor e não o tipo
 
-// operadores lógicos && e ou || 
+// operadores lógicos && e ou ||
 
 console.log(a == b && typeof b == 'string');
 console.log(a == b && typeof a == 'string');
+
+// operador incremental a++ operador decremental a--
 
