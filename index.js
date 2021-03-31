@@ -22,3 +22,14 @@ console.log(typeof(helloWorld));
 
 // functions de conversão parseInt, parseFloat
 
+// operadores
+
+let a = 20;
+const b = "20";
+
+console.log(a == b); // operador de comparação;
+
+// para comparar o tipo de variável vc usa ===
+
+console.log(a === b);
+
