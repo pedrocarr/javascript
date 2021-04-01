@@ -105,13 +105,25 @@
 // argumentos ou parâmetros sãao informações que as funções precisam.
 // funções nativas são as já existentes.
 
-function calc(x1, x2, operator){
+// function calc(x1, x2, operator){
 
-    return eval(`${x1} ${operator} ${x2}`);
+//     return eval(`${x1} ${operator} ${x2}`);
 
-}
+// }
 
-let result = calc(1, 2, '+');
+// let result = calc(1, 2, '+');
 
-console.log(result);
+// console.log(result);
+
+
+(function(x1, x2, operator){
+
+  return eval(`${x1} ${operator} ${x2}`);
+
+})(1, 2, '*');
+
+
+// arrow function é uma forma mais simples de escrever function
+// o que acontece dentro dela fica dentro dela
+
 
