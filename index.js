@@ -64,40 +64,54 @@
 
 // switch analisa todos os casos
 
-let color = 'blue';
+// let color = 'blue';
 
-switch (color) {
+// switch (color) {
 
-  case 'green':
-    console.log('go');
-    break;
+//   case 'green':
+//     console.log('go');
+//     break;
 
-  case 'yellow':
-    console.log('attention');
-    break;
+//   case 'yellow':
+//     console.log('attention');
+//     break;
 
-  case 'red':
-    console.log('stop');
-    break;
+//   case 'red':
+//     console.log('stop');
+//     break;
 
-  default:
-    console.log('I don/t know');
+//   default:
+//     console.log('I don/t know');
+// }
+// // laços de repetição
+// // for
+// // for each
+// // for in
+// // while
+// // do while
+// // break pára a iteração e o continue volta para a iteração
+
+// let n = 7;
+
+// for (let i = 0; i <= 10; i++) {
+
+
+//   console.log(`${i} X ${n} = ${i*n}`);
+
+// }
+
+// funções são trechos de códigos que podem ser reutilizados
+// classe agrupa métodos e atributos no mesmo lugar
+// argumentos ou parâmetros sãao informações que as funções precisam.
+// funções nativas são as já existentes.
+
+function calc(x1, x2, operator){
+
+    return eval(`${x1} ${operator} ${x2}`);
+
 }
-// laços de repetição
-// for
-// for each
-// for in
-// while
-// do while
-// break pára a iteração e o continue volta para a iteração
 
-let n = 7;
+let result = calc(1, 2, '+');
 
-for (let i = 0; i <= 10; i++) {
-
-
-  console.log(`${i} X ${n} = ${i*n}`);
-
-}
-
+console.log(result);
 
