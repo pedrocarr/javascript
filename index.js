@@ -158,6 +158,11 @@ let now = Date.now();
 
 console.log(now);
 
+// retorna uma data atual
+
+let now = new Date;
+
+console.log(now);
 
 
 
