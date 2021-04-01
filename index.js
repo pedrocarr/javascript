@@ -138,6 +138,21 @@
 // DOM document Object Model é a estrutura como o HTML é formado.
 // eventos : ações realizadas na aplicação que dispara rotinas.
 
+window.addEventListener('focus', event => {
+
+    console.log('focus');
+
+});
+
+
+
+
+
+
+
+
+
+
 
 
 
