@@ -116,14 +116,29 @@
 // console.log(result);
 
 
-(function(x1, x2, operator){
+// (function(x1, x2, operator){
 
-  return eval(`${x1} ${operator} ${x2}`);
+//   return eval(`${x1} ${operator} ${x2}`);
 
-})(1, 2, '*');
+// })(1, 2, '*');
 
 
 // arrow function é uma forma mais simples de escrever function
 // o que acontece dentro dela fica dentro dela
+
+// let calc = (x1, x2, operator) => {
+
+//     return eval(`${x1} ${operator} ${x2}`);
+
+// }
+
+// console.log(calc(1, 2, '*'));
+
+// função de retorno como parâmetro após uma ação CALLBACK
+// DOM document Object Model é a estrutura como o HTML é formado.
+// eventos : ações realizadas na aplicação que dispara rotinas.
+
+
+
 
 
