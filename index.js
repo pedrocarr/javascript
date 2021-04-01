@@ -64,7 +64,7 @@
 
 // switch analisa todos os casos
 
-let color = 'red';
+let color = 'blue';
 
 switch (color) {
 
@@ -79,5 +79,8 @@ switch (color) {
   case 'red':
     console.log('stop');
     break;
+
+  default:
+    console.log('I don/t know');
 }
 
