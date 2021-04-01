@@ -195,7 +195,12 @@ ciaAirs.forEach(function(value, index){
 });
 
 
-
+// POO dentro de uma classe uma variável é um atributo e uma função é um método
+// o atributo você pode chamar onde vc quiser dentro de uma classe
+// método é a mesma coisa que a function porém você não precisa mais da palavra function
+// tem que estar dentro de uma classe
+// THIS é um comando interno usado paraa referenciar ATRIBUTOS E MÉTODOS na mesma classe.
+// Classe é um conjunto de atributos e métodos
 
 
 
