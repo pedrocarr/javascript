@@ -44,30 +44,30 @@
 
 // // operador incremental a++ operador decremental a--
 
-let color = 'yellow';
+// let color = 'yellow';
 
-if (color === 'green') {
+// if (color === 'green') {
 
-  console.log('go');
+//   console.log('go');
 
-} else if (color === 'yellow') {
+// } else if (color === 'yellow') {
 
-  console.log('attention');
+//   console.log('attention');
 
-} else {
+// } else {
 
-  console.log('stop');
+//   console.log('stop');
 
-}
+// }
 
 // if(condition) {instructions} uma condição verdadeira anula todas as variáveis
 
 // switch analisa todos os casos
 
-let color = 'blue';
+let color = 'red';
 
 switch (color) {
-  
+
   case 'green':
     console.log('go');
     break;
@@ -75,7 +75,7 @@ switch (color) {
   case 'yellow':
     console.log('attention');
     break;
-  
+
   case 'red':
     console.log('stop');
     break;
