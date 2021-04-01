@@ -182,7 +182,17 @@ cars.forEach(function(value, index){
 
     console.log(index, value);
 
-})
+});
+
+
+let ciaAirs = ['tam', 'varig', 'azul', 'gol', 'rayanair'];
+
+ciaAirs.forEach(function(value, index){
+
+      console.log(index, value);
+
+
+});
 
 
 
