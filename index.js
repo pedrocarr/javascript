@@ -168,7 +168,21 @@ console.log(timeNow.getFullYear()); // retorna o ano
 
 console.log(timeNow.getMonth()); // retorna o mês
 
+// array coleção de valores sempre
 
+let cars = ['palio 98', 'toro', 'uno', 10, true, new Date(), function(){}];
+
+// array.length para saber a quantidade
+
+console.log(cars[5].getMonth());
+
+// forEach para iterar sobre os elementos do array
+
+cars.forEach(function(value, index){
+
+    console.log(index, value);
+
+})
 
 
 
