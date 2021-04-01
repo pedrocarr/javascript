@@ -201,6 +201,26 @@ ciaAirs.forEach(function(value, index){
 // tem que estar dentro de uma classe
 // THIS é um comando interno usado paraa referenciar ATRIBUTOS E MÉTODOS na mesma classe.
 // Classe é um conjunto de atributos e métodos
+// Atributos informações armazenadas Métodos são acões que a classe executa
+// Instância é quando o objeto representa uma classe
+// quanto mais inteligente a sua classe, mais limpo seu código final.
+
+
+let cellphone = function(){
+
+    this.color = 'silver';
+
+
+    this.call = function()
+    {
+        console.log('one call');
+    }
+}
+
+
+let object = new cellphone();
+
+console.log(object)
 
 
 
