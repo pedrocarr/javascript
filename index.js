@@ -144,9 +144,14 @@ window.addEventListener('focus', event => {
 
 });
 
+// window é a janela, manipulamos a aplicação
+// document é o próprio website
 
+document.addEventListener('click', event => {
 
+    console.log('click');
 
+});
 
 
 
