@@ -160,9 +160,15 @@ console.log(now);
 
 // retorna uma data atual
 
-let now = new Date;
+let timeNow = new Date;
 
-console.log(now);
+console.log(timeNow.getDate()); // retorna o dia
+
+console.log(timeNow.getFullYear()); // retorna o ano
+
+console.log(timeNow.getMonth()); // retorna o mês
+
+
 
 
 
