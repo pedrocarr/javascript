@@ -153,6 +153,11 @@ document.addEventListener('click', event => {
 
 });
 
+// retorna um timestamp de quantos segundos tem de 1970 até agora
+let now = Date.now();
+
+console.log(now);
+
 
 
 
