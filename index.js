@@ -83,4 +83,19 @@ switch (color) {
   default:
     console.log('I don/t know');
 }
+// laços de repetição
+// for
+// for each
+// for in
+// while
+// do while
+// break pára a iteração e o continue volta para a iteração
 
+let n = 7;
+
+for (let i = 0; i <= 10; i++) {
+
+
+  console.log(`${i} X ${n} = ${i*n}`);
+
+}
